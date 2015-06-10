@@ -119,7 +119,7 @@ public class AddStarsFragment extends Fragment {
 			};
 		};
 
-//		new Thread(connectNet).start();
+		new Thread(connectNet).start();
 
 		return view;
 	}

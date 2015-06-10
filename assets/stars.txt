@@ -1,184 +1,212 @@
 [
  
-    {
-        "url": "http://file.bmob.cn/M01/F3/C2/oYYBAFVrKoqAcI6VAANk5CYnpdE950.png
+   {
+        "url": "http://img01.sogoucdn.com/app/a/100520024/3aab393f78d30250333718f93f8cf1e4
 		",
-        "name": "金秀贤 "
+        "name": "金泰熙 "
     },{
-        "url": "http://file.bmob.cn/M01/F3/C1/oYYBAFVrKn6AMUolAAZYk-2mME0576.png
+        "url": "http://img04.sogoucdn.com/app/a/100520024/9ad1ee8e6fe56f70743544f40ddfd2f2
 		",
-        "name": "金秀贤 "
+        "name": "章子怡 "
     },{
-        "url": "http://file.bmob.cn/M01/F3/B4/oYYBAFVrKX-AUwjTAAHy7BLvmZE810.png
+        "url": "http://img03.sogoucdn.com/app/a/100520024/79d607532596038e73420415778e9a85
 		",
-        "name": "金秀贤 "
+        "name": "马伊琍 "
     },{
-        "url": "http://f.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=30e31009940a304e462fa8a8b0a1cce3/4d086e061d950a7bcff42ac909d162d9f3d3c9fe.jpg
+        "url": "http://imgstore02.cdn.sogou.com/app/a/100520024/974baf4a46e8a931f6b330a521f77ee0
 		",
-        "name": "苏炳添 "
+        "name": "吴秀波 "
     },{
-        "url": "http://g.hiphotos.baidu.com/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=238c1e7723a446236ac7ad30f94b196b/ca1349540923dd5418e0c365d209b3de9c82482f.jpg
+        "url": "http://imgstore02.cdn.sogou.com/app/a/100520024/3aa8ce8f2a8a030eb7e7a3f4bbf2d6de
 		",
-        "name": "苏炳添 "
+        "name": "钟欣潼 "
     },{
-        "url": "http://b.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=5afa751a6b600c33e474d69a7b253a6a/a71ea8d3fd1f4134a693b370251f95cad1c85e13.jpg
+        "url": "http://img01.sogoucdn.com/app/a/100520024/8943f124e75a5aea24e74f2898847aad
 		",
-        "name": "布拉特 "
+        "name": "王力宏 "
     },{
-        "url": "http://e.hiphotos.baidu.com/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=0da15b17c9177f3e0439f45f11a650a2/1ad5ad6eddc451da5da2c54ab6fd5266d016323f.jpg
+        "url": "http://img01.sogoucdn.com/app/a/100520024/c504e6d7bc03da4b3ed6e0573091c61c
 		",
-        "name": "贝克汉姆 "
+        "name": "周韦彤 "
     },{
-        "url": "http://b.hiphotos.baidu.com/baike/g%3D0%3Bw%3D268/sign=e1550f064334970a57731524e2f7e3fe/21a4462309f79052d1a480170ef3d7ca7bcbd564.jpg
+        "url": "http://imgstore01.cdn.sogou.com/app/a/100520024/a7e443c16dfe5b9b22d658f49fe48e7c
 		",
-        "name": "习近平"
+        "name": " 彭于晏"
     },{
-        "url": "http://d.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=5ec8f35348540923be646b2cf331ba6c/b21bb051f8198618e503e2f44bed2e738bd4e67e.jpg
+        "url": "http://img04.sogoucdn.com/app/a/100520024/da928a20d28211e706c61c376f4195ad
 		",
-        "name": "彭丽媛 "
+        "name": "钟汉良 "
     },{
-        "url": "http://a.hiphotos.baidu.com/baike/g%3D0%3Bw%3D268/sign=09f1bda70cfa513d41aa69d54a5067cd/314e251f95cad1c83ff8d45c7b3e6709c93d510d.jpg
+        "url": "http://img02.sogoucdn.com/app/a/100520024/a08934861445161245aee60744fe8637
 		",
-        "name": "温家宝 "
+        "name": "杨幂 "
     },{
-        "url": "http://img0.bdstatic.com/img/image/676352f3fcc1917b786ca5c8abde26131409805989.jpg
+        "url": "http://imgstore01.cdn.sogou.com/app/a/100520024/b15e8de2c1d4fffa1a0b16c62cf9e23b
 		",
-        "name": "梅西 "
+        "name": "韩庚 "
     },{
-        "url": "http://img3.imgtn.bdimg.com/it/u=1024210539,2757449412&fm=21&gp=0.jpg
+        "url": "http://imgstore03.cdn.sogou.com/app/a/100520024/946e825c289387a9111f69655328a8f3
 		",
-        "name": "金秀贤 "
+        "name": "AngelaBaby "
     },{
-        "url": "http://news.cz001.com.cn/attachement/jpg/site2/20100613/0023ae7798320d7e898a63.jpg
+        "url": "http://imgstore04.cdn.sogou.com/app/a/100520024/914b300f96a4fd09a93bca98b389fd20
 		",
-        "name": "范冰冰 "
+        "name": "姚晨 "
     },{
-        "url": "http://img1.ifensi.com/channelimg/titlepic/articlephotopath/2011/08/18/2010574229/20110818_119.jpg
+        "url": "http://img02.sogoucdn.com/app/a/100520024/a40f05c9f3575746c652bd8ae8c78873
 		",
-        "name": "蔡卓妍 "
+        "name": "张歆艺 "
     },{
-        "url": "http://www.chinadaily.com.cn/dfpd/liaoning/201108/9bc8387c2198de909fe9e930a4418cbd.jpg
+        "url": "http://imgstore03.cdn.sogou.com/app/a/100520024/6bc0b25d5145076649460cf1e3e482dd
 		",
-        "name": "巩新亮 "
+        "name": "张歆艺 "
     },{
-        "url": "http://www.chndsnews.com/uploadfiles/140213/2-14021311023K94.jpg
+        "url": "http://imgstore02.cdn.sogou.com/app/a/100520024/512f20ce56fce61597650dc809ecc417
 		",
-        "name": "吴奇隆"
+        "name": "张歆艺 "
     },{
-        "url": "http://www.hinews.cn/pic/0/15/55/53/15555315_147749.jpg
+        "url": "http://imgstore02.cdn.sogou.com/app/a/100520024/656060be0d67a4a364a224ec7f185752
 		",
-        "name": "张根硕 "
+        "name": "汤唯 "
     },{
-        "url": "http://www.hinews.cn/pic/0/15/55/53/15555317_837832.jpg
+        "url": "http://imgstore02.cdn.sogou.com/app/a/100520024/d1cf434e17cc9344503fa301ffc1e9d1
 		",
-        "name": "唐嫣"
+        "name": "蔡健雅 "
     },{
-        "url": "http://www.hinews.cn/pic/0/15/55/53/15555319_845072.jpg
+        "url": "http://img04.sogoucdn.com/app/a/100520024/22c6fe83a25c06cd1e8bd41daf80284f
 		",
-        "name": "俞灏明 "
+        "name": "艾薇儿 "
     },{
-        "url": "http://www.hinews.cn/pic/0/15/55/53/15555320_906488.jpg
+        "url": "http://img03.sogoucdn.com/app/a/100520024/828da6bab1b8d8032e895d0422669611
 		",
-        "name": "陈奕迅 "
+        "name": "李孝利 "
     },{
-        "url": "http://www.hinews.cn/pic/0/15/55/53/15555321_134483.jpg
-		",
-        "name": "吴奇隆"
-    },{
-        "url": "http://www.hinews.cn/pic/0/15/55/53/15555326_988361.jpg
-		",
-        "name": "武艺 "
-    },{
-        "url": "http://www.hinews.cn/pic/0/15/55/53/15555329_999938.jpg
-		",
-        "name": "唐嫣"
-    },{
-        "url": "http://www.hinews.cn/pic/0/15/55/53/15555334_294313.jpg
-		",
-        "name": " 范冰冰"
-    },{
-        "url": "http://image.meimumeijia.com/cms/UploadFiles/c16f944e-2fa0-4b59-b83b-f73e5d4c45ce.jpg
-		",
-        "name": "周迅 "
-    },{
-        "url": "http://photocdn.sohu.com/20130907/Img386100689.jpg
-		",
-        "name": "舒淇 "
-    },{
-        "url": "http://photocdn.sohu.com/20130907/Img386100692.jpg
-		",
-        "name": "李小璐"
-    },{
-        "url": "http://photocdn.sohu.com/20130907/Img386100694.jpg
-		",
-        "name": "范冰冰"
-    },{
-        "url": "http://photocdn.sohu.com/20130907/Img386100700.jpg
+        "url": "http://img02.sogoucdn.com/app/a/100520024/3ca6245698b5ec34547530ccc27a3166
 		",
         "name": "唐嫣 "
     },{
-        "url": "http://photocdn.sohu.com/20130907/Img386100702.jpg
+        "url": "http://imgstore01.cdn.sogou.com/app/a/100520024/4ed6c602e535a845376b154effe5aba3
+		",
+        "name": "周慧敏"
+    },{
+        "url": "http://img02.sogoucdn.com/app/a/100520024/3de74972b7e398017c59afcf6b3f68bf
+		",
+        "name": "钟汉良 "
+    },{
+        "url": "http://img01.sogoucdn.com/app/a/100520024/30a068ff2c671502aae3e8bee6c67a7d
+		",
+        "name": "杨幂 "
+    },{
+        "url": "http://imgstore03.cdn.sogou.com/app/a/100520024/7ef158dc348295c2c1675f4e5d6f8ebc
 		",
         "name": "孙俪 "
     },{
-        "url": "http://photocdn.sohu.com/20130907/Img386100704.jpg
+        "url": "http://imgstore03.cdn.sogou.com/app/a/100520024/533ab15da11a8d3d5a8404914516ee0c
 		",
-        "name": " 张靓颖"
+        "name": "钟欣潼 "
     },{
-        "url": "http://photocdn.sohu.com/20130907/Img386100705.jpg
+        "url": "http://imgstore03.cdn.sogou.com/app/a/100520024/e208a546563f1a049789f44512c337a2
 		",
-        "name": "王心凌 "
+        "name": "井柏然 "
     },{
-        "url": "http://photocdn.sohu.com/20130907/Img386100706.jpg
+        "url": "http://img02.sogoucdn.com/app/a/100520024/276bf8a6890e646b65bb5537bda5b763
 		",
-        "name": "周迅 "
+        "name": "陈乔恩 "
     },{
-        "url": "http://photocdn.sohu.com/20130907/Img386100710.jpg
+        "url": "http://imgstore04.cdn.sogou.com/app/a/100520024/bd974e8bf33ba544caee80b489db060d
 		",
-        "name": "钟欣桐 "
+        "name": "周慧敏 "
     },{
-        "url": "http://photocdn.sohu.com/20130907/Img386100720.jpg
+        "url": "http://img02.sogoucdn.com/app/a/100520024/f27e17b415b0536164e1e1977bc5dafe
 		",
-        "name": "周杰伦 "
+        "name": "周韦彤 "
     },{
-        "url": "http://photocdn.sohu.com/20130907/Img386100721.jpg
+        "url": "http://imgstore01.cdn.sogou.com/app/a/100520024/953ea818d4b19a5d4868f6be6f8fd4a5
+		",
+        "name": "钟欣潼 "
+    },{
+        "url": "http://img03.sogoucdn.com/app/a/100520024/4f4976b230929ac5d859fa15a396defb
+		",
+        "name": "吴佩慈 "
+    },{
+        "url": "http://imgstore04.cdn.sogou.com/app/a/100520024/ed65b4e1c8e9c33c74e6d8d0a8d37371
+		",
+        "name": "彭于晏 "
+    },{
+        "url": "http://img04.sogoucdn.com/app/a/100520024/8f2fabe6540390aeb8d40ca2d6bf84d0
+		",
+        "name": " 周杰伦"
+    },{
+        "url": "http://img01.sogoucdn.com/app/a/100520024/84932e7c527f2ef52b438312e737bbd9
+		",
+        "name": "杨幂 "
+    },{
+        "url": "http://imgstore02.cdn.sogou.com/app/a/100520024/b908ce4102e7941dd96b4ce607432353
+		",
+        "name": "林依晨 "
+    },{
+        "url": "http://img01.sogoucdn.com/app/a/100520024/3f6f7ad015695824a358e0d979fc215e
+		",
+        "name": "李小璐 "
+    },{
+        "url": "http://img02.sogoucdn.com/app/a/100520024/afc2eb7b34d6b1b0b7f1973edfc675db
+		",
+        "name": "钟汉良 "
+    },{
+        "url": "http://img03.sogoucdn.com/app/a/100520024/66fb096c73e11bba0c20c9eed7e68fe5
+		",
+        "name": "少女时代 "
+    },{
+        "url": "http://img04.sogoucdn.com/app/a/100520024/d98671ab4675ad416341c40309501309
 		",
         "name": "文章 "
     },{
-        "url": "http://photocdn.sohu.com/20130907/Img386100724.jpg
+        "url": "http://imgstore02.cdn.sogou.com/app/a/100520024/5c19421be5d878a1531801ed8ddb257e
 		",
-        "name": "张根硕 "
+        "name": "刘嘉玲 "
     },{
-        "url": "http://img.taopic.com/uploads/allimg/121110/240494-121110200A274.jpg
+        "url": "http://imgstore01.cdn.sogou.com/app/a/100520024/ee42834f22e6e7aca105f50f8b5eeede
 		",
-        "name": "方大同 "
+        "name": "赵寅成 "
     },{
-        "url": "http://gb.cri.cn/mmsource/images/2013/06/07/74/5627548553605613070.jpg
+        "url": "http://imgstore02.cdn.sogou.com/app/a/100520024/2e137cb8c5aa4fca546d6007cd7391a8
 		",
-        "name": "古天乐 "
+        "name": "赵寅成"
     },{
-        "url": "http://gb.cri.cn/mmsource/images/2013/06/07/96/4513162750820888144.jpg
+        "url": "http://cdn.t01.pic.sogou.com/00f7ce062ff37075-b8e8d433ef03f586-2bd3dafc2576cf044f8cc139b9577157.jpg
 		",
-        "name": "佟大为 "
+        "name": "张杰 "
     },{
-        "url": "http://www.chinadaily.com.cn/dfpd/liaoning/201108/e4485d74a517e121ecaed763af084b8d.jpg
+        "url": "http://cdn.t02.pic.sogou.com/12400ee0679b6e1e-9dc04af53662b93c-c711ed2937247e792376dfb070b0af29.jpg
 		",
-        "name": "任贤齐 "
+        "name": "王宝强 "
     },{
-        "url": "http://pic.jschina.com.cn/0/10/80/57/10805703_958462.jpg
+        "url": "http://cdn.t02.pic.sogou.com/08b4f02af00c12f2-9487963f81c820ad-bc3324d5a8c9ef79b3b0b4a48bdeecc3_i.jpg
 		",
-        "name": "黎明"
+        "name": "吴彦祖 "
     },{
-        "url": "http://pic.jschina.com.cn/0/10/80/57/10805708_545381.jpg
+        "url": "http://cdn.t01.pic.sogou.com/6824a5090f3a8b06-05ec128faa5f7081-2ccbb88824508c38290517210d88c10a_i.jpg
 		",
-        "name": "王菲 "
+        "name": "陆毅 "
     },{
-        "url": "http://pic.jschina.com.cn/0/10/80/57/10805714_289456.jpg
+        "url": "http://cdn.t03.pic.sogou.com/ca18645ac73c6393-42cb2f1ec1669562-5181a12d2dcfce2aa528ff620693572c.jpg
 		",
-        "name": "范冰冰 "
+        "name": "林志颖 "
     },{
-        "url": "http://pic.jschina.com.cn/0/10/80/57/10805723_130743.jpg
+        "url": "http://cdn.t01.pic.sogou.com/057e84e6c056ef71-38225c4478c4ea85-5db2c25a43ffb3945bd40f2f148200da_i.jpg
 		",
-        "name": "林俊杰 "
+        "name": "林峰 "
+    },{
+        "url": "http://cdn.t03.pic.sogou.com/5a5919a3e94bb5d4-137358c4e598bbc2-c8873befa03dfe52ec8a5805dd911ba4.jpg
+		",
+        "name": "甄子丹 "
+    },{
+        "url": "http://www.mf08s.com/y/a/UploadFiles_a/20120317/20120317182034760.jpg
+		",
+        "name": "宋承宪 "
+    },{
+        "url": "http://p0.so.qhimg.com/bdm/288_180_/t01cff3f584d7a2662a.jpg
+		",
+        "name": "李智友 "
     }
 ]

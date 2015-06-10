@@ -9,7 +9,6 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 import com.face.test.add.R;
 import com.loveplusplus.demo.image.HackyViewPager;
 import com.loveplusplus.demo.image.ImageDetailFragment;
-import com.umeng.socialize.controller.UMSocialService;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -37,7 +36,6 @@ public class ImagePagerActivity extends FragmentActivity {
 	private ArrayList<String> urls;
 	private SweetAlertDialog sDialog;
 
-	private UMSocialService mController;
 	public static String path = Environment.getExternalStorageDirectory()
 			.getPath() + "/facetest/";
 	private File[] files;
@@ -101,50 +99,8 @@ public class ImagePagerActivity extends FragmentActivity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 
-		switch (item.getItemId()) {
-		case R.id.share:
-			Bitmap bm = BitmapFactory.decodeFile(files[pagerPosition].getAbsolutePath());
-			MyApplication.setShare(ImagePagerActivity.this, mController,
-					getResources().getString(R.string.sharecontent)
-							+ Result.url, bm);
-			break;
-		case R.id.delete:
-			// File file = new File(urls.get(pagerPosition));
-			// file.delete();
-			sDialog = new SweetAlertDialog(ImagePagerActivity.this,
-					SweetAlertDialog.NORMAL_TYPE);
-			sDialog.setTitleText("你确定要删除？");
-			sDialog.setConfirmText("删除!");
-			sDialog.showCancelButton(true);
-			sDialog.setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
-				@Override
-				public void onClick(SweetAlertDialog sDialog) {
-					File file = files[pagerPosition];
-					if (file.delete()) {
-						urls.remove(pagerPosition);
-						sDialog.setTitleText("已删除!")
-								.setContentText(
-										"Your imaginary file has been deleted!")
-								.setConfirmText("OK").showCancelButton(false)
-								.setConfirmClickListener(null)
-								.changeAlertType(SweetAlertDialog.SUCCESS_TYPE);
-					} else {
-						sDialog.setTitleText("删除失败")
-								.setContentText(" deleted failed!")
-								.setConfirmText("OK").showCancelButton(false)
-								.setConfirmClickListener(null)
-								.changeAlertType(SweetAlertDialog.ERROR_TYPE);
-					}
-					mAdapter.notifyDataSetChanged();
-
-				}
-			});
-			sDialog.show();
-
-		default:
-			break;
-		}
-		return true;
+		
+		return false;
 	}
 
 	private class ImagePagerAdapter extends FragmentStatePagerAdapter {

@@ -212,5 +212,144 @@ public class BitmapUtil {
 	    }   
 	    return image;   
 	}
+	
+	
+	public static Bitmap oldRemeber(Bitmap bmp)  
+    {  
+        // 速度测试  
+        long start = System.currentTimeMillis();  
+        int width = bmp.getWidth();  
+        int height = bmp.getHeight();  
+        Bitmap bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.RGB_565);  
+        int pixColor = 0;  
+        int pixR = 0;  
+        int pixG = 0;  
+        int pixB = 0;  
+        int newR = 0;  
+        int newG = 0;  
+        int newB = 0;  
+        int[] pixels = new int[width * height];  
+        bmp.getPixels(pixels, 0, width, 0, 0, width, height);  
+        for (int i = 0; i < height; i++)  
+        {  
+            for (int k = 0; k < width; k++)  
+            {  
+                pixColor = pixels[width * i + k];  
+                pixR = Color.red(pixColor);  
+                pixG = Color.green(pixColor);  
+                pixB = Color.blue(pixColor);  
+                newR = (int) (0.393 * pixR + 0.769 * pixG + 0.189 * pixB);  
+                newG = (int) (0.349 * pixR + 0.686 * pixG + 0.168 * pixB);  
+                newB = (int) (0.272 * pixR + 0.534 * pixG + 0.131 * pixB);  
+                int newColor = Color.argb(255, newR > 255 ? 255 : newR, newG > 255 ? 255 : newG, newB > 255 ? 255 : newB);  
+                pixels[width * i + k] = newColor;  
+            }  
+        }  
+          
+        bitmap.setPixels(pixels, 0, width, 0, 0, width, height);  
+        long end = System.currentTimeMillis();  
+        Log.d("may", "used time="+(end - start));  
+        return bitmap;  
+    } 
+	
+	
+	/** 
+     * 模糊效果 
+     * @param bmp 
+     * @return 
+     */  
+    public static  Bitmap blurImage(Bitmap bmp)  
+    {  
+        int width = bmp.getWidth();  
+        int height = bmp.getHeight();  
+        Bitmap bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.RGB_565);  
+          
+        int pixColor = 0;  
+          
+        int newR = 0;  
+        int newG = 0;  
+        int newB = 0;  
+          
+        int newColor = 0;  
+          
+        int[][] colors = new int[9][3];  
+        for (int i = 1, length = width - 1; i < length; i++)  
+        {  
+            for (int k = 1, len = height - 1; k < len; k++)  
+            {  
+                for (int m = 0; m < 9; m++)  
+                {  
+                    int s = 0;  
+                    int p = 0;  
+                    switch(m)  
+                    {  
+                    case 0:  
+                        s = i - 1;  
+                        p = k - 1;  
+                        break;  
+                    case 1:  
+                        s = i;  
+                        p = k - 1;  
+                        break;  
+                    case 2:  
+                        s = i + 1;  
+                        p = k - 1;  
+                        break;  
+                    case 3:  
+                        s = i + 1;  
+                        p = k;  
+                        break;  
+                    case 4:  
+                        s = i + 1;  
+                        p = k + 1;  
+                        break;  
+                    case 5:  
+                        s = i;  
+                        p = k + 1;  
+                        break;  
+                    case 6:  
+                        s = i - 1;  
+                        p = k + 1;  
+                        break;  
+                    case 7:  
+                        s = i - 1;  
+                        p = k;  
+                        break;  
+                    case 8:  
+                        s = i;  
+                        p = k;  
+                    }  
+                    pixColor = bmp.getPixel(s, p);  
+                    colors[m][0] = Color.red(pixColor);  
+                    colors[m][1] = Color.green(pixColor);  
+                    colors[m][2] = Color.blue(pixColor);  
+                }  
+                  
+                for (int m = 0; m < 9; m++)  
+                {  
+                    newR += colors[m][0];  
+                    newG += colors[m][1];  
+                    newB += colors[m][2];  
+                }  
+                  
+                newR = (int) (newR / 9F);  
+                newG = (int) (newG / 9F);  
+                newB = (int) (newB / 9F);  
+                  
+                newR = Math.min(255, Math.max(0, newR));  
+                newG = Math.min(255, Math.max(0, newG));  
+                newB = Math.min(255, Math.max(0, newB));  
+                  
+                newColor = Color.argb(255, newR, newG, newB);  
+                bitmap.setPixel(i, k, newColor);  
+                  
+                newR = 0;  
+                newG = 0;  
+                newB = 0;  
+            }  
+        }  
+          
+        return bitmap;  
+    } 
 
 }

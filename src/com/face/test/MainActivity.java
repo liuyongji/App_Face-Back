@@ -7,17 +7,13 @@ import com.actionbarsherlock.view.MenuItem;
 import com.face.test.add.R;
 import com.face.test.fragment.AddStarsFragment;
 import com.face.test.fragment.FuqixiangFragment;
+import com.face.test.fragment.MainFragment;
 import com.face.test.fragment.PhotosFragment;
-import android.annotation.SuppressLint;
+
 import android.support.v4.app.Fragment;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 
 public class MainActivity extends SherlockFragmentActivity {
-
-	public static Bitmap curBitmap[] = new Bitmap[2];
-	public static String[] TITLES;
-	@SuppressLint("HandlerLeak")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -32,9 +28,12 @@ public class MainActivity extends SherlockFragmentActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// TODO Auto-generated method stub
+		
+		
 		menu.add(0, 1, 0, "Add");  
 		menu.add(0, 2, 0, "Fuqi");  
 		menu.add(0, 3, 0, "Photos");  
+		menu.add(0, 4, 0, "Main"); 
 		 
 		return true;
 	}
@@ -55,7 +54,7 @@ public class MainActivity extends SherlockFragmentActivity {
 			mianFragment = new PhotosFragment();
 			break;
 		case 4:
-			
+			mianFragment = new MainFragment();
 			break;
 
 		default:

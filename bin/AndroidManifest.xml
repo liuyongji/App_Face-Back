@@ -5,8 +5,8 @@
     android:versionName="2.7.1" >
 
     <uses-sdk
-        android:minSdkVersion="13"
-        android:targetSdkVersion="18" />
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
 
     <supports-screens android:anyDensity="true" />
 

@@ -17,6 +17,7 @@ import com.face.test.bean.Stars;
 import com.facepp.http.HttpRequests;
 import com.facepp.http.PostParameters;
 import com.google.gson.Gson;
+
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.os.Environment;
@@ -29,6 +30,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.Toast;
 import android.widget.GridView;
 
@@ -40,6 +42,7 @@ public class PhotosFragment extends Fragment {
 
 	private Handler handler;
 
+	private int position;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -58,8 +61,9 @@ public class PhotosFragment extends Fragment {
 
 						@Override
 						public void onSuccess() {
-							// TODO Auto-generated method stub
-							initData();
+							list.remove(position);
+							imageAdapter.notifyDataSetChanged();
+
 						}
 
 						@Override
@@ -99,8 +103,19 @@ public class PhotosFragment extends Fragment {
 								+ list.get(position).getFaceId(),
 						Toast.LENGTH_LONG).show();
 
-				new Thread(new MYRUN(position)).start();
+				// new Thread(new MYRUN(position)).start();
 
+			}
+		});
+		mGridView.setOnItemLongClickListener(new OnItemLongClickListener() {
+
+			@Override
+			public boolean onItemLongClick(AdapterView<?> parent, View view,
+					int position, long id) {
+				// TODO Auto-generated method stub
+				PhotosFragment.this.position = position;
+				new Thread(new MYRUN(position)).start();
+				return true;
 			}
 		});
 		return view;
@@ -157,7 +172,7 @@ public class PhotosFragment extends Fragment {
 		// } catch (ParseException e) {
 		// }
 		// query.addWhereGreaterThan("createdAt", new BmobDate(date));
-		query.setLimit(900);
+		query.setLimit(1000);
 		query.order("name");
 		query.findObjects(getActivity(), new FindListener<Stars>() {
 			@Override
@@ -168,19 +183,11 @@ public class PhotosFragment extends Fragment {
 				Toast.makeText(getActivity(), object.size() + "",
 						Toast.LENGTH_SHORT).show();
 
-				imageAdapter = new ImageAdapter(getActivity(), object);
+				imageAdapter = new ImageAdapter(getActivity(),
+						PhotosFragment.this.list);
 
 				mGridView.setAdapter(imageAdapter);
-
-				// for (int i = 0; i < object.size(); i++) {
-				// TmpStar tmpStar = new TmpStar();
-				// tmpStar.setName(list.get(i).getName());
-				// tmpStar.setUrl(list.get(i).getUrl());
-				// tmpStars.add(tmpStar);
-				// }
-				// Gson gson = new Gson();
-				// String s = gson.toJson(tmpStars);
-				// Log.i("lyj", s);
+				imageAdapter.notifyDataSetChanged();
 
 			}
 
@@ -192,19 +199,19 @@ public class PhotosFragment extends Fragment {
 		});
 	}
 
-	public void writeFileSdcard(String fileName, String message) {
-
-		try {
-			File file = new File(Environment.getExternalStorageDirectory(),
-					fileName);
-			FileOutputStream fos = new FileOutputStream(file);
-			fos.write(message.getBytes());
-			fos.close();
-			Log.i("lyj", "写入成功：");
-		} catch (Exception e) {
-			e.printStackTrace();
-			Log.i("lyj", "写入失败：");
-		}
-	}
+	// public void writeFileSdcard(String fileName, String message) {
+	//
+	// try {
+	// File file = new File(Environment.getExternalStorageDirectory(),
+	// fileName);
+	// FileOutputStream fos = new FileOutputStream(file);
+	// fos.write(message.getBytes());
+	// fos.close();
+	// Log.i("lyj", "写入成功：");
+	// } catch (Exception e) {
+	// e.printStackTrace();
+	// Log.i("lyj", "写入失败：");
+	// }
+	// }
 
 }
